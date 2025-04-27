@@ -1,4 +1,4 @@
-package logic.util
+package data.security
 
 interface PasswordHashing {
 }

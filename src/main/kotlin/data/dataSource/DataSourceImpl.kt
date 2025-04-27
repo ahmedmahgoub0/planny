@@ -1,16 +1,15 @@
-package data
+package data.dataSource
 
-import data.util.Parser
+import data.database.UsersCsvParser
 import logic.model.Audit
 import logic.model.Project
 import logic.model.Task
 import logic.model.User
 
 class DataSourceImpl(
-    private val usersParser: Parser,
-    private val projectsParser: Parser,
-    private val tasksParser: Parser,
-    private val auditParser: Parser
+    private val usersCsvParser: UsersCsvParser
+
+
 ): DataSource {
     override fun getAllUsers(): List<User> {
         TODO("Not yet implemented")

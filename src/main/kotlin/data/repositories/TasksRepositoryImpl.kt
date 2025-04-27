@@ -1,6 +1,6 @@
 package data.repositories
 
-import data.DataSource
+import data.dataSource.DataSource
 import logic.repositories.TasksRepository
 
 class TasksRepositoryImpl (
